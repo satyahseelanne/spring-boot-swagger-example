@@ -29,4 +29,4 @@ jobs:
         app-name: 'sat-rest-app-1'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_52aeae9045f7441eb96defa4d75cbf23 }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '/home/runner/.m2/repository/com/techprimers/springboot/swagger-example/0.0.1-SNAPSHOT/swagger-example-0.0.1-SNAPSHOT.jar'
